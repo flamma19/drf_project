@@ -13,7 +13,7 @@ class PostDetail(generics.RetrieveDestroyAPIView):
     serializer_class = PostSerializer
 
 
-""" Concrete View Classes
+""" Concrete View Classes - for further reading.
 #CreateAPIView
 Used for create-only endpoints.
 #ListAPIView
