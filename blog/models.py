@@ -32,7 +32,7 @@ class Post(models.Model):
         User, on_delete=models.CASCADE, related_name='blog_posts')
     status = models.CharField(
         max_length=10, choices=options, default='published')
-    # model managers.
+    # model managers
     objects = models.Manager()  # default manager
     postobjects = PostObjects()  # custom manager
 
