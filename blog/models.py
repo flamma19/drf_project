@@ -12,7 +12,6 @@ class Category(models.Model):
 
 class Post(models.Model):
 
-    # create a model manager to retrieve only published posts whenever we call it.
     class PostObjects(models.Manager):
         def get_queryset(self):
             return super().get_queryset() .filter(status='published')
@@ -21,6 +20,7 @@ class Post(models.Model):
         ('draft', 'Draft'),
         ('published', 'Published'),
     )
+
     category = models.ForeignKey(
         Category, on_delete=models.PROTECT, default=1)
     title = models.CharField(max_length=250)
@@ -32,7 +32,6 @@ class Post(models.Model):
         User, on_delete=models.CASCADE, related_name='blog_posts')
     status = models.CharField(
         max_length=10, choices=options, default='published')
-    # model managers
     objects = models.Manager()  # default manager
     postobjects = PostObjects()  # custom manager
 
