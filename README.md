@@ -1,2 +1,1 @@
-# YT-Django-DRF-Simple-Blog-Series-Schema-Documentation-Part-5
- 
+A project based on DRF around a youtube blog course
