@@ -1,0 +1,7 @@
+
+†python:S101"jRename class "Test_Create_Post" to match the regular expression ^_?([A-Z_][a-zA-Z0-9]*|[a-z_][a-z0-9_]*)$.(²•‡èþÿÿÿÿ
+Epython:S1481"-Remove the unused local variable "testuser1".(‰ÚÖë
+Npython:S1481
+"1Remove the unused local variable "test_category".(†šƒ”üÿÿÿÿ
+Jpython:S1481"-Remove the unused local variable "test_post".(•á•Ìùÿÿÿÿ
+Hpython:S1481"+Remove the unused local variable "excerpt".(ÍãŒ¸ÿÿÿÿÿ

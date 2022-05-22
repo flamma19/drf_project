@@ -68,3 +68,15 @@ O
 blog/models.py,9\0\90f4c37dbfd7a96a1fb4496187f7e1fe7d61f3cf
 9
 	README.md,8\e\8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d
+@
+blog_api/urls.py,3\d\3d13163fbbb48c1d88e4f3bacc83147ad512cd75
+<
+core/urls.py,b\6\b6b0e14274708ab267b76d2ddb4c93cb1f10faf0
+A
+blog_api/views.py,e\6\e64c6b7b9c8ac24cae27482c39359dbb878ab886
+<
+commands.txt,8\b\8bf05a2d5213d1db26fe3a426dd4b98d87557b4c
+@
+core/settings.py,5\0\50d2db7959c3140e27b70128db0c86bd7ad43594
+S
+#.idea/sonarlint/issuestore/index.pb,9\f\9fe84ebb15faf917b7def6236dba604453cc61e0
